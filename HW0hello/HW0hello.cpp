@@ -5,8 +5,17 @@
 //
 
 #include <iostream>
+using std::cin;
 
 int main()
 {
-    std::cout << "Hello, my name's Lisa!\n";
+    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";
+
+    std::cout << "Press ENTER to quit ";
+    while (cin.get() != '\n');
+
 }
